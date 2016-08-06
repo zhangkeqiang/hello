@@ -18,7 +18,7 @@ public class MathAssistant {
 		List<Integer> list = new ArrayList<Integer>();
 		int m = n;
 		int f = 2;
-		while (f <= m ) {
+		while (f <= m) {
 			while (m % f == 0) {
 				list.add(f);
 				m = m / f;
@@ -28,11 +28,26 @@ public class MathAssistant {
 		return list;
 	}
 
-	/**@method calcToGCD
-	 * @description 
+	/**
+	 * @method calcToGCD
+	 * @description
 	 * @return Object
-	*/
+	 */
 	public static int calcToGCD(int n, int m) {
+		int bigN, smallM;
+		if (n > m) {
+			bigN = n;
+			smallM = m;
+		} else {
+			bigN = m;
+			smallM = n;
+		}
+		int gcd = smallM<(bigN-smallM)? smallM: (bigN-smallM);
+		while (gcd > 1) {
+			if (bigN % gcd == 0 & smallM % gcd == 0)
+				return gcd;
+			gcd--;
+		}
 		return 1;
 	}
 

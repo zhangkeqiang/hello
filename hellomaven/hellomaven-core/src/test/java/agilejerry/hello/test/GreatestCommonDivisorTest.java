@@ -21,8 +21,15 @@ public class GreatestCommonDivisorTest {
 	}
 
 	@Test
-	public final void test1_2() {
+	public final void testGCD() {
 		assertEquals(1,MathAssistant.calcToGCD(1,2));
+		assertEquals(1,MathAssistant.calcToGCD(2,3));
+		assertEquals(2,MathAssistant.calcToGCD(2,4));
+		assertEquals(3,MathAssistant.calcToGCD(3,6));
+		assertEquals(3,MathAssistant.calcToGCD(6,3));
+		assertEquals(2,MathAssistant.calcToGCD(6,4));
+		assertEquals(21,MathAssistant.calcToGCD(63,42));
+		
 	}
 
 }
