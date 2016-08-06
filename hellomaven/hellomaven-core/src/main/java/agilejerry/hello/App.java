@@ -1,4 +1,4 @@
-package agilejerry.hellomaven;
+package agilejerry.hello;
 
 /**
  * Hello world!

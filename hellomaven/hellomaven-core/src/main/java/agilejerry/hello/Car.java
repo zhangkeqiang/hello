@@ -1,4 +1,4 @@
-package agilejerry.hellomaven;
+package agilejerry.hello;
 
 /**@ClassName: Car
  * @Description: TODO(这里用一句话描述这个类的作用) 

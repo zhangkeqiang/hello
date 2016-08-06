@@ -1,4 +1,4 @@
-package agilejerry.hellomaven;
+package agilejerry.hello.test;
 
 import static org.junit.Assert.*;
 

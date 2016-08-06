@@ -1,4 +1,4 @@
-package agilejerry.hellomaven;
+package agilejerry.hello.test;
 
 import static org.junit.Assert.*;
 
@@ -6,6 +6,9 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
+
+import agilejerry.hello.Car;
+
 import static org.mockito.Mockito.*; 
 /**@ClassName: HelloMock
  * @Description: TODO(这里用一句话描述这个类的作用) 

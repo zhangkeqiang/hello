@@ -1,4 +1,4 @@
-package agilejerry.hellomaven;
+package agilejerry.hello;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,6 +26,14 @@ public class MathAssistant {
 			f++;
 		}
 		return list;
+	}
+
+	/**@method calcToGCD
+	 * @description 
+	 * @return Object
+	*/
+	public static int calcToGCD(int n, int m) {
+		return 1;
 	}
 
 }
