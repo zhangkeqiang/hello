@@ -7,7 +7,7 @@ import java.util.List;
  * @ClassName: PrimeFactors
  * @Description:
  */
-public class PrimeFactors {
+public class MathAssistant {
 
 	/**
 	 * @method generate

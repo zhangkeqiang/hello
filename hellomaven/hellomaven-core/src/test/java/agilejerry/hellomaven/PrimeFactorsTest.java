@@ -23,18 +23,18 @@ public class PrimeFactorsTest {
 
 	@Test
 	public final void test2() {
-		List<Integer> list = PrimeFactors.generate(2);
+		List<Integer> list = MathAssistant.generate(2);
 		assertNotNull(list);
 		assertEquals(generateList(2), list);
 	}
 	
 	@Test
 	public final void test3() {
-		assertEquals(generateList(3), PrimeFactors.generate(3));
+		assertEquals(generateList(3), MathAssistant.generate(3));
 	}
 	@Test
 	public final void test4(){
-		assertEquals(generateList(2,2), PrimeFactors.generate(4));
+		assertEquals(generateList(2,2), MathAssistant.generate(4));
 	}
 
 	protected List<Integer> generateList(int ... factors) {
@@ -46,21 +46,21 @@ public class PrimeFactorsTest {
 	
 	@Test
 	public final void test5() {
-		assertEquals(generateList(5), PrimeFactors.generate(5));
+		assertEquals(generateList(5), MathAssistant.generate(5));
 	}
 	
 	@Test
 	public final void test6() {
-		assertEquals(generateList(2,3), PrimeFactors.generate(6));
+		assertEquals(generateList(2,3), MathAssistant.generate(6));
 	}
 	
 	@Test
 	public final void testBiggerthan6() {
-		assertEquals(generateList(7), PrimeFactors.generate(7));
-		assertEquals(generateList(2,2,2), PrimeFactors.generate(8));
-		assertEquals(generateList(3,3), PrimeFactors.generate(9));
-		assertEquals(generateList(2,2,3,3), PrimeFactors.generate(36));
-		assertEquals(generateList(7,7), PrimeFactors.generate(49));
+		assertEquals(generateList(7), MathAssistant.generate(7));
+		assertEquals(generateList(2,2,2), MathAssistant.generate(8));
+		assertEquals(generateList(3,3), MathAssistant.generate(9));
+		assertEquals(generateList(2,2,3,3), MathAssistant.generate(36));
+		assertEquals(generateList(7,7), MathAssistant.generate(49));
 		
 	}
 
