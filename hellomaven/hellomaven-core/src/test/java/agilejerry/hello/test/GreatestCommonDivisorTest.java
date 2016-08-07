@@ -28,8 +28,8 @@ public class GreatestCommonDivisorTest {
 		assertEquals(3,MathAssistant.calcToGCD(3,6));
 		assertEquals(3,MathAssistant.calcToGCD(6,3));
 		assertEquals(2,MathAssistant.calcToGCD(6,4));
-		assertEquals(21,MathAssistant.calcToGCD(63,42));
-		
+		assertEquals(21,MathAssistant.calcToGCD(63,21));
+		assertEquals(2,MathAssistant.calcToGCD(100,98));
 	}
 
 }

@@ -44,7 +44,7 @@ public class MathAssistant {
 		}
 		int gcd = smallM<(bigN-smallM)? smallM: (bigN-smallM);
 		while (gcd > 1) {
-			if (bigN % gcd == 0 & smallM % gcd == 0)
+			if (bigN % gcd == 0 && smallM % gcd == 0)
 				return gcd;
 			gcd--;
 		}
