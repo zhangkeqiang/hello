@@ -11,4 +11,11 @@ public class A1HandlerTest {
         A1Handler a1 = new A1Handler();
         Assert.assertEquals(1004, a1.analyzeJobStep1("ddd"));
     }
+    
+    @Test
+    public void testA1_function1(){
+        A1Handler a1 = new A1Handler();
+        int nRet = a1.function1(6);
+        assertEquals(6, nRet);
+    }
 }

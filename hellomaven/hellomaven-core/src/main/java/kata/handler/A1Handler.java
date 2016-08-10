@@ -7,4 +7,12 @@ public class A1Handler extends AHandler {
         return 1004;
     }
 
+	/**@method function1
+	 * @description 
+	 * @return int
+	*/
+	public int function1(int i) {
+		return i;
+	}
+
 }
